@@ -1,0 +1,39 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.navbar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: #fff; /* Change as needed */
+  z-index: 1000; /* Ensure it stays on top */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+  height: 80px;
+}
+
+.main-flex-layout {
+  display: flex;
+  flex: 1; /* Take remaining height */
+}
+
+.sidebar {
+  width: 81px; /* Fixed width for sidebar */
+  background-color: #f4f4f4; /* Change as needed */
+  border-right: 1px solid gray;
+}
+
+.outlet {
+  flex: 1; /* Take remaining width */
+  padding: 20px; /* Optional padding */
+  background-color: #fff; /* Change as needed */
+}
