@@ -1,9 +1,14 @@
-import React from 'react'
+import CarouselComponent from '../../components/CarouselComponent';
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
-  )
-}
-
+        <>
+          <div >
+            <CarouselComponent />
+          </div>
+        </>
+      );
+    }
+    
+   
 export default Dashboard
